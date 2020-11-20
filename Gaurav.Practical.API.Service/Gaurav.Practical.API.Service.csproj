@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gaurav.Practical.API.IRepository\Gaurav.Practical.API.IRepository.csproj" />
+    <ProjectReference Include="..\Gaurav.Practical.API.IService\Gaurav.Practical.API.IService.csproj" />
+    <ProjectReference Include="..\Gaurav.Practical.API.Model\Gaurav.Practical.API.Model.csproj" />
+    <ProjectReference Include="..\Gaurav.Practical.API.Repository\Gaurav.Practical.API.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

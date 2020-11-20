@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gaurav.Practical.API</name>
+    </assembly>
+    <members>
+        <member name="T:Gaurav.Practical.API.Controllers.ColorController">
+            <summary>
+            Color controller
+            </summary>
+        </member>
+        <member name="M:Gaurav.Practical.API.Controllers.ColorController.#ctor(AutoMapper.IMapper,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Gaurav.Practical.API.IService.IColorService)">
+            <summary>
+            Color controller
+            </summary>
+            <param name="mapper"></param>
+            <param name="environment"></param>
+            <param name="colorService"></param>
+        </member>
+        <member name="M:Gaurav.Practical.API.Controllers.ColorController.GetAllAsync">
+            <summary>
+            Get all color entries from color.json file
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Gaurav.Practical.API.Controllers.ColorController.FindAsync(System.String)">
+            <summary>
+            Find color by name
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Gaurav.Practical.API.Controllers.ColorController.AddAsync(Gaurav.Practical.API.Dto.ColorDto)">
+            <summary>
+            Add specified color object to JSON file
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Gaurav.Practical.API.Controllers.ColorController.UpdateAsync(Gaurav.Practical.API.Dto.ColorDto)">
+            <summary>
+            Update specified color object to JSON file
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Gaurav.Practical.API.Controllers.ColorController.DeleteAsync(System.String)">
+            <summary>
+            Remove specified color objects from file
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Gaurav.Practical.API.Controllers.ColorController.RaiseError">
+            <summary>
+            Raise error - to test exception handling
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
