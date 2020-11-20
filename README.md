@@ -16,3 +16,5 @@ HTTPPUT - http://localhost:64109/api/colors - to modify color entry in JSON file
 HTTPDELETE - http://localhost:64109/api/colors?id=black - to delete color entry in JSON file
 
 HTTPGET - http://localhost:64109/api/Colors/RaiseError - to test exception handler middleware
+
+*** START VISUAL STUDIO AS ADMINISTRATOR
